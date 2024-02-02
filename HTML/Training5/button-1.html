@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>전송과 리셋 버튼 추가하기</title>
+    </head>
+    <body>
+        <form action="">
+            <fieldset>
+                <legend>배송정보</legend>
+                <ul>
+                    <li>
+                        <label for="name">이름</label>
+                        <input type="text" id="name">
+                    </li>
+                    <li>
+                        <label for="addr">배송 주소</label>
+                        <input type="text" id="addr">
+                    </li>
+                    <li>
+                        <label for="mail">이메일</label>
+                        <input type="email" id="mail">
+                    </li>
+                    <li>
+                        <label for="phone">연락처</label>
+                        <input type="tel" id="phone">
+                    </li>
+                    <li>
+                        <label for="date">배송 지정 (주문일로부터 최소 3일 이후)</label>
+                        <br><input type="date" id="date">
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+        <div>
+            <input type="submit" value="주문하기">
+            <input type="reset" value="취소하기">
+        </div>
+    </body>
+</html>
