@@ -1,0 +1,4 @@
+종류        설명
+submit      폼을 서버로 전송합니다. <input type="submit">과 같은 기능을 합니다.
+reset       폼에 입력한 내용을 초기화합니다. <input type="reset">과 같은 기능을 합니다.
+button      버튼 형태만 만들 뿐 자체 기능은 없습니다. <input type="button">과 같은 기능을 합니다.
