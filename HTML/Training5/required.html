@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>readonly와 required 속성 사용하기</title>
+        <link rel="stylesheet" href="css/form2.css">
+    </head>
+    <body>
+        <from>
+            <fieldset>
+                <legend>배송 정보</legend>
+                <ul>
+                    <li>
+                        <label for="prod">주문 상품</label>
+                        <input type="text" id="prod" value="상품용 3KG" readonly>
+                    </li>
+                    <li>
+                        <label for="user_name">이름</label>
+                        <input type="text" id="user_name" required>
+                    </li>
+                    <li>
+                        <label for="user_addr">배송 주소</label>
+                        <input type="text" id="user_addr" required>
+                    </li>
+                    <li>
+                        <label for="user_mail">이메일</label>
+                        <input type="email" id="user_mail">
+                    </li>
+                    <li>
+                        <label for="phone">연락처</label>
+                        <input type="tel" id="phone" required>
+                    </li>
+                    <li>
+                        <label for="date">배송지정</label>
+                        <input type="date" id="date">
+                        <p>(주문일로부터 최소 3일후)</p>
+                    </li>
+                </ul>
+            </fieldset>
+            <div>
+                <input type="submit" value="주문하기">
+                <input type="reset" value="취소하기">
+            </div>
+        </from>
+    </body>
+</html>
