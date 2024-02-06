@@ -1,0 +1,11 @@
+종류                            설명                
+disc                            채운 원 모양입니다.
+circle                          빈 원 모양입니다.
+square                          채운 사각형모양입니다.
+demical                         1부터 시작하는 10진수입니다.
+demical-leading-zero            앞에 0이 붙는 10진수입니다.
+lower-roman                     로마 숫자 소문자입니다.
+upper-roman                     로마 숫자 대문자입니다.
+lower-alpha 또는 lower-latin    알파벳 소문자입니다.
+upper-alpha 또는 upper-latin    알파벳 대문자입니다.
+none                            불릿이나 숫자를 없앱니다.
